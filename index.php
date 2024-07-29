@@ -18,6 +18,8 @@ $caminho = URL::getBase();
 
                     if (file_exists($p . ".php")) {
                         include_once $p . ".php";
+                        //echo Url::getURL(1) . "<br>";
+                        //echo Url::getURL(2);
                     } else {
                         include_once "erro404.php";
                     }

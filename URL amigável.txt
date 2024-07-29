@@ -1,0 +1,7 @@
+URL amigável
+www.site.com/categoria/borracha/pneu
+URL::getBase() => www.site.com/
+Url::getURL(0) => categoria
+Url::getURL(1) => borracha
+Url::getURL(2) => pneu
+

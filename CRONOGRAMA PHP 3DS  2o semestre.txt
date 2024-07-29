@@ -1,0 +1,28 @@
+-> URL amigável
+-> consulta pela URL (aluno)
+-> consulta no Modal (aluno)
+-> consulta com acordeão (equipe e aluno)
+-> paginação
+-> consumindo api dengue (buscando dados)
+-> consumindo api dengue com google charts
+
+-> projeto final TCC
+
+-----------------------------------------------------------------------------------
+
+.htaccess
+
+Agora vamos entender o que escrevi em cada uma das linhas acima.
+1
+RewriteEngine On
+Ativa o suporte à reescrita de URL. Isso significa que as URL poderão ser direcionadas para um determinado arquivo no apache.
+2
+RewriteCond %{SCRIPT_FILENAME} !-f
+Não aplica a condição para arquivos que existam. Isso significa que as imagens, CSS, JS e outros arquivos que já existem continuarão funcionando perfeitamente.
+3
+RewriteCond %{SCRIPT_FILENAME} !-d
+Não aplica a condição para diretórios que existam
+4
+RewriteRule . index.php [L]
+Arquivo para onde deve ser direcionado as requisições. Isso significa que tudo que for digitado no browser, após a pasta que esta este .htacces e que não exista, será direcionado para o arquivo index.php.
+

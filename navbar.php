@@ -32,6 +32,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="<?= $caminho ?>onibusModal">Onibus Modal</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?= $caminho ?>onibusURL">Onibus URL</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?= $caminho ?>passageiroURL">Passageiro URL</a>
+            </li>
         </ul>
     </div>
 </nav>
